@@ -1,0 +1,125 @@
+[
+  {
+    "message": "Installing 'next, react, and react-dom'",
+    "execs":[
+      "npm install next@13.2.x",
+      "npm install react@18.2.x",
+      "npm install react-dom@18.2.x"
+    ]
+  },
+  {
+    "message": "Disabling 'next' telemetry",
+    "execs":[
+      "npx next telemetry disable"
+    ]
+  },
+  {
+    "message": "Installing 'prettier'",
+    "execs":[
+      "npm install prettier@2.8.x -D"
+    ]
+  },
+  {
+    "message": "Installing 'eslint and dependencies'",
+    "execs":[
+      "npm install eslint@8.30.x -D",
+      "npm install eslint-config-next@13.1.x -D",
+      "npm install eslint-config-prettier@8.5.x -D",
+      "npm install eslint-plugin-prettier@4.2.x -D",
+      "npm install eslint-plugin-react@7.31.x -D",
+      "npm install eslint-plugin-storybook@0.6.8 -D",
+      "npm install @babel/core@7.20.x -D",
+      "npm install @babel/eslint-parser@7.19.x -D",
+      "npm install eslint-plugin-jsx-a11y@6.6.x -D",
+      "npm install eslint-plugin-jest@27.2.x -D"
+    ]
+  },
+  {
+    "message": "Installing 'tailwindcss, postcss, autoprefixer, cssnano, and concurrently'",
+    "execs":[
+      "npm install tailwindcss@3.2.x -D",
+      "npm install postcss@8.4.x -D",
+      "npm install autoprefixer@10.4.x -D",
+      "npm install concurrently@7.6.x -D",
+      "npm install cssnano@5.1.x -D"
+    ]
+  },
+  {
+    "message": "Installing 'jest'",
+    "execs":[
+      "npm install jest@29.4.x -D",
+      "npm install @testing-library/react@13.4.0 -D",
+      "npm install @testing-library/jest-dom@5.16.x -D",
+      "npm install jest-environment-jsdom@29.3.x -D"
+    ]
+  },
+  {
+    "message": "Installing 'dotenv'",
+    "execs":[
+      "npm install dotenv@16.0.x -D"
+    ]
+  },
+  {
+    "message": "Installing 'cypress', @badeball/cypress-cucumber-preprocessor,'@bahmutov/cypress-esbuild-preprocessor'",
+    "execs":[
+      "npm install cypress@12.4.x -D",
+      "npm install @badeball/cypress-cucumber-preprocessor@15.1.x -D",
+      "npm install @bahmutov/cypress-esbuild-preprocessor@2.2.x -D"
+    ]
+  },
+  {
+    "message": "Installing 'react icons'",
+    "execs":[
+      "npm install react-icons@4.7.x"
+    ]
+  },
+  {
+    "message": "Installing 'husky'",
+    "execs":[
+      "npm install husky@8.0.x -D",
+      "npx husky install",
+      "npx husky add .husky/pre-commit \"npm test\"",
+      "npx husky add .husky/pre-push \"npm test\"",
+      "rm .husky/_/.gitignore"
+    ]
+  },
+  {
+    "message": "Installing 'babel'",
+    "execs":[
+      "npm install @babel/core@7.20.x -D",
+      "npm install @babel/eslint-parser@7.19.x -D",
+      "npm install @babel/preset-env@7.20.x -D",
+      "npm install @babel/preset-react@7.18.x -D"
+    ]
+  },
+  {
+    "message": "Installing 'storybook'",
+    "execs":[
+      "npm install storybook@7.0.0-beta.15 -D",
+      "npm install @storybook/addon-essentials@7.0.0-beta.15 -D",
+      "npm install @storybook/addon-interactions@7.0.0-beta.15 -D",
+      "npm install @storybook/addon-links@7.0.0-beta.15 -D",
+      "npm install @storybook/blocks@7.0.0-beta.15 -D",
+      "npm install @storybook/nextjs@7.0.0-beta.15 -D",
+      "npm install @storybook/react@7.0.0-beta.15 -D",
+      "npm install @storybook/testing-library@0.0.x -D"
+    ]
+  },
+  {
+    "message": "Installing support for blog posts",
+    "execs":[
+      "npm install gray-matter@4.0.x",
+      "npm install react-markdown@8.0.x",
+      "npm install remark-gfm@3.0.x",
+      "npm install rehype-raw@6.1.x",
+      "npm install @tailwindcss/typography@0.5.x -D",
+      "npm install reading-time@1.5.x"
+    ]
+  },
+  {
+    "message": "Installing support for generating a sitemap",
+    "execs":[
+      "npm install mustache@4.2.x"
+    ]
+  }
+]

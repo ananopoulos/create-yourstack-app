@@ -1,0 +1,23 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "next start",
+    "lint": "npx eslint --no-error-on-unmatched-pattern --fix \"{app,src}/**/*.{js,jsx}\"",
+    "test": "jest",
+    "build": "npm run test && npm run build:css && npm run build-sitemap && next build",
+    "build-sitemap": "node bin/buildSitemap.cjs",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "build:css": "tailwindcss -m -i ./src/styles/globals.css -o ./app/output.css",
+    "dev:css": "tailwindcss -w -i ./src/styles/globals.css -o ./app/output.css",
+    "dev": "concurrently \"npm run dev:css\" \"next dev\"",
+    "storybook": "storybook dev -p 6006",
+    "storybook-build": "storybook build -o ./build/storybook",
+    "storybook-build-test": "npx http-server ./build/storybook"
+  }
+}

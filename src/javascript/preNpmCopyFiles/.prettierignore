@@ -1,0 +1,10 @@
+# Add directories which should not be traversed by prettier
+
+.husky
+.next
+.storybook
+build
+cypress
+documentation
+node_modules
+public

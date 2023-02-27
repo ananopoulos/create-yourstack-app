@@ -1,0 +1,23 @@
+{
+  "name": "create-yourstack-app",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Andy Nanopoulos",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bnb/metaverse.git"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "cypress",
+    "tailwind",
+    "create-react-app",
+    "storybook"
+  ],
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "yargs": "^17.6.2"
+  }
+}

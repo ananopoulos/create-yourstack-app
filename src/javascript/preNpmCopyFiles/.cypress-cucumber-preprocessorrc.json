@@ -1,0 +1,13 @@
+{
+  "html": {
+    "enabled": true,
+    "output": "build/cucumber-report.html"
+  },
+  "messages": {
+    "enabled": false,
+    "output": "build/cucumber-messages.ndjson"
+  },
+  "stepDefinitions": [
+    "cypress/integration/steps/**/*.js"
+  ]
+}
