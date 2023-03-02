@@ -124,7 +124,7 @@ renderTemplate(isTypescript, 'manifest.json.template', {name: projectName}, `${o
 // Visit the output directory
 process.chdir(outputDir)
 
-// Initialize git
+// Initialize git so the husky can be installed
 console.log("*** Initialize git")
 execSync('git init', {stdio: 'inherit'})
 

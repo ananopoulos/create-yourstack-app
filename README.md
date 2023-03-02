@@ -62,6 +62,10 @@ It is a non-trivial task to get many of these technologies to co-exist. This is 
 ## Installation
 
 Clone this github repo: [create-yourstack-app](https://github.com/ananopoulos/create-yourstack-app)
+```
+cd create-yourstack-app
+npm install
+```
 
 ## Usage
 
