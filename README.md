@@ -37,9 +37,7 @@ It is a non-trivial task to get many of these technologies to co-exist. This is 
 
 ## Installation
 
-```sh
-npm install create-yourstack-app
-```
+Clone this github repo: [create-yourstack-app](https://github.com/ananopoulos/create-yourstack-app)
 
 ## Usage
 
@@ -48,11 +46,11 @@ The first step in generating your app is to select and test your technology stac
 - 'Exec' all of the commands in the 'src/npm.json' file
 - Copy all of the files under the 'src/postNpmCopyFiles' directory to the output directory
 
-These steps form the 'recipe' for creating an app using your selection of open-source projects. Once you have completed your customizations, you are ready to iterate and test a 'Hello World' version of your app:
+These steps form the 'recipe' for creating an app using your selection of open-source projects. Once you have completed your customizations, you are ready to iterate and test a 'Hello-world' version of your app:
 
 ```sh
 cd create-yourstack-app
-node bin/index.js -n foo -o ~/temp
+node bin/index.cjs -n Hello-world -o ~/temp
 ```
 As you make changes, run these tests:
 

@@ -1,12 +1,12 @@
 {
   "name": "create-yourstack-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This web app generator enables you to experiment with your own tech choices",
   "author": "Andy Nanopoulos",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/metaverse.git"
+    "url": "https://github.com/ananopoulos/create-yourstack-app"
   },
   "keywords": [
     "react",
